@@ -1,0 +1,10 @@
+Step 1 : Installing
+npm install -g newman
+
+Step 2 : run collection "Collection.json" with enviroment "env.json"
+
+newman run Collection.json -d env.json
+
+
+If we need to run it more than one iteration 
+newman run Collection.json -d env.json -n 10
